@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\transaction">
+      <UniqueIdentifier>{f5b94be9-596d-4930-a2ef-32de7ba0a2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\transaction">
+      <UniqueIdentifier>{aad5545a-7f4b-4dc2-977b-bdef0f915bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DB">
+      <UniqueIdentifier>{75644b44-b068-4a6f-b28d-b5f5d40c667d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DB">
+      <UniqueIdentifier>{59b07e0c-916a-4061-9879-37b5925beb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PaymentClassification">
+      <UniqueIdentifier>{47fef530-f8f9-4287-adcc-ab5a63e65d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymentClassification">
+      <UniqueIdentifier>{f9d9d36e-c9b5-4918-acd1-7382ed73edee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PaymentSchedule">
+      <UniqueIdentifier>{02042f00-eea2-4791-ba31-a95a51ea1754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymentSchedule">
+      <UniqueIdentifier>{847e8c4b-7a81-4f32-96b2-5147094403c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymentMethod">
+      <UniqueIdentifier>{794a2f46-0d3f-40a5-9f5f-1e38da779ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PaymentMethod">
+      <UniqueIdentifier>{6ddcdc18-2d96-4268-a669-2208f5f0777e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Transaction.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="AddEmployeeTransaction.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayrollDatabase.h">
+      <Filter>Header Files\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSalariedEmployee.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentClassification.h">
+      <Filter>Header Files\PaymentClassification</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentSchedule.h">
+      <Filter>Header Files\PaymentSchedule</Filter>
+    </ClInclude>
+    <ClInclude Include="SalariedClassification.h">
+      <Filter>Header Files\PaymentClassification</Filter>
+    </ClInclude>
+    <ClInclude Include="MonthlySchedule.h">
+      <Filter>Header Files\PaymentSchedule</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentMethod.h">
+      <Filter>Header Files\PaymentMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="HoldMethod.h">
+      <Filter>Header Files\PaymentMethod</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddEmployeeTransaction.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayrollDatabase.cpp">
+      <Filter>Source Files\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSalariedEmployee.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="PaymentClassification.cpp">
+      <Filter>Source Files\PaymentClassification</Filter>
+    </ClCompile>
+    <ClCompile Include="PaymentSchedule.cpp">
+      <Filter>Source Files\PaymentSchedule</Filter>
+    </ClCompile>
+    <ClCompile Include="SalariedClassification.cpp">
+      <Filter>Source Files\PaymentClassification</Filter>
+    </ClCompile>
+    <ClCompile Include="MonthlySchedule.cpp">
+      <Filter>Source Files\PaymentSchedule</Filter>
+    </ClCompile>
+    <ClCompile Include="PaymentMethod.cpp">
+      <Filter>Source Files\PaymentMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="HoldMethod.cpp">
+      <Filter>Source Files\PaymentMethod</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PayrollSystem.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

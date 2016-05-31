@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PayrollSystem", "PayrollSystem\PayrollSystem.vcxproj", "{D59BB004-A968-433C-B069-FE20E6AE4D3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{8023FC93-5444-407A-8415-300EAEE4B5EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D59BB004-A968-433C-B069-FE20E6AE4D3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D59BB004-A968-433C-B069-FE20E6AE4D3A}.Debug|Win32.Build.0 = Debug|Win32
+		{D59BB004-A968-433C-B069-FE20E6AE4D3A}.Release|Win32.ActiveCfg = Release|Win32
+		{D59BB004-A968-433C-B069-FE20E6AE4D3A}.Release|Win32.Build.0 = Release|Win32
+		{8023FC93-5444-407A-8415-300EAEE4B5EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8023FC93-5444-407A-8415-300EAEE4B5EE}.Debug|Win32.Build.0 = Debug|Win32
+		{8023FC93-5444-407A-8415-300EAEE4B5EE}.Release|Win32.ActiveCfg = Release|Win32
+		{8023FC93-5444-407A-8415-300EAEE4B5EE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
