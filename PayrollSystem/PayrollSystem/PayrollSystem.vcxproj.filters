@@ -81,6 +81,24 @@
     <ClInclude Include="HoldMethod.h">
       <Filter>Header Files\PaymentMethod</Filter>
     </ClInclude>
+    <ClInclude Include="AddHourlyEmployee.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="HourlyClassification.h">
+      <Filter>Header Files\PaymentClassification</Filter>
+    </ClInclude>
+    <ClInclude Include="WeeklySchedule.h">
+      <Filter>Header Files\PaymentClassification</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCommisionedEmployee.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="CommisionedClassification.h">
+      <Filter>Header Files\PaymentClassification</Filter>
+    </ClInclude>
+    <ClInclude Include="BiweeklySchedule.h">
+      <Filter>Header Files\PaymentSchedule</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddEmployeeTransaction.cpp">
@@ -115,6 +133,24 @@
     </ClCompile>
     <ClCompile Include="HoldMethod.cpp">
       <Filter>Source Files\PaymentMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="AddHourlyEmployee.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="HourlyClassification.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="WeeklySchedule.cpp">
+      <Filter>Source Files\PaymentSchedule</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCommisionedEmployee.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="CommisionedClassification.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="BiweeklySchedule.cpp">
+      <Filter>Source Files\PaymentSchedule</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

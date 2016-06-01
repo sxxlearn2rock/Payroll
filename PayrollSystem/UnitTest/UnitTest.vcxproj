@@ -60,7 +60,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;D:\SXX\Study\ASD\PayrollSystem\PayrollSystem\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>AddSalariedEmployee.obj;AddEmployeeTransaction.obj;Employee.obj;HoldMethod.obj;MonthlySchedule.obj;PaymentClassification.obj;SalariedClassification.obj;PayrollDatabase.obj;PaymentMethod.obj;PaymentSchedule.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>AddHourlyEmployee.obj;AddSalariedEmployee.obj;AddCommisionedEmployee.obj;AddEmployeeTransaction.obj;BiweeklySchedule.obj;CommisionedClassification.obj;Employee.obj;HourlyClassification.obj;HoldMethod.obj;MonthlySchedule.obj;PaymentClassification.obj;SalariedClassification.obj;PayrollDatabase.obj;PaymentMethod.obj;PaymentSchedule.obj;WeeklySchedule.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
