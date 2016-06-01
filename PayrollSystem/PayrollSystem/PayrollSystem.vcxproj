@@ -71,6 +71,7 @@
     <ClInclude Include="AddSalariedEmployee.h" />
     <ClInclude Include="BiweeklySchedule.h" />
     <ClInclude Include="CommisionedClassification.h" />
+    <ClInclude Include="DeleteEmployeeTransaction.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="HoldMethod.h" />
     <ClInclude Include="HourlyClassification.h" />
@@ -81,6 +82,8 @@
     <ClInclude Include="PayrollDatabase.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SalariedClassification.h" />
+    <ClInclude Include="TimeCard.h" />
+    <ClInclude Include="TimeCardTransaction.h" />
     <ClInclude Include="Transaction.h" />
     <ClInclude Include="WeeklySchedule.h" />
   </ItemGroup>
@@ -91,6 +94,7 @@
     <ClCompile Include="AddSalariedEmployee.cpp" />
     <ClCompile Include="BiweeklySchedule.cpp" />
     <ClCompile Include="CommisionedClassification.cpp" />
+    <ClCompile Include="DeleteEmployeeTransaction.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="HoldMethod.cpp" />
     <ClCompile Include="HourlyClassification.cpp" />
@@ -101,6 +105,8 @@
     <ClCompile Include="PayrollDatabase.cpp" />
     <ClCompile Include="SalariedClassification.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TimeCard.cpp" />
+    <ClCompile Include="TimeCardTransaction.cpp" />
     <ClCompile Include="WeeklySchedule.cpp" />
   </ItemGroup>
   <ItemGroup>

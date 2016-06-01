@@ -11,6 +11,7 @@ public:
 
 	Employee* getEmployee(int empId);
 	void addEmployee(int empId, Employee*);
+	void deleteEmployee(int empId);
 	void clear(){ mEmployees.clear(); }
 
 private:

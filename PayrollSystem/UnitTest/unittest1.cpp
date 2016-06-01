@@ -16,6 +16,9 @@
 #include "../PayrollSystem/AddCommisionedEmployee.h"
 #include "../PayrollSystem/CommisionedClassification.h"
 #include "../PayrollSystem/BiweeklySchedule.h"
+#include "../PayrollSystem/DeleteEmployeeTransaction.h"
+#include "../PayrollSystem/TimeCardTransaction.h"
+#include "../PayrollSystem/TimeCard.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -28,7 +31,11 @@ namespace UnitTest
 	TEST_CLASS(UnitTest1)
 	{
 	public:
-		
+		TEST_METHOD_INITIALIZE(setup)
+		{
+			gPayrollDatabase.clear();
+		}
+
 		TEST_METHOD(TestAddSalariedEmployee)
 		{
 			int empId = 1;
@@ -98,6 +105,44 @@ namespace UnitTest
 			PaymentMethod* pm = e->getMethod();
 			HoldMethod* hm = static_cast<HoldMethod*>(pm);
 			Assert::IsNotNull(hm);
+		}
+
+		TEST_METHOD(TestDeleteEmployee)
+		{
+			int empId = 3;
+			AddCommisionedEmployee t(empId, "Lance", "NewYork", 2500.00, 3.1);
+			t.execute(); 
+			{
+				Employee* e = gPayrollDatabase.getEmployee(empId);
+				Assert::IsNotNull(e);
+			}
+
+			DeleteEmployeeTransaction dt(empId);
+			dt.execute();
+			{
+				Employee* e = gPayrollDatabase.getEmployee(empId);
+				Assert::IsNull(e);
+			}
+		}
+
+		TEST_METHOD(TestTimeCardTransaction)
+		{
+			int empId = 2;
+			AddHourlyEmployee t(empId, "Bill", "Home", 15.25);
+			t.execute();
+
+			TimeCardTransaction tct(10312001L, 8.0, empId);
+			tct.execute();
+
+			Employee * e = gPayrollDatabase.getEmployee(empId);
+			Assert::IsNotNull(e);
+
+			PaymentClassification* pc = e->getClassification();
+			HourlyClassification* hc = static_cast<HourlyClassification*>(pc);
+			Assert::IsNotNull(hc);
+			TimeCard* tc = hc->getTimeCard(10312001L);
+			Assert::IsNotNull(tc);
+			Assert::AreEqual(8.0, tc->getHours(), DOUBLE_TOLETATE);
 		}
 
 	};

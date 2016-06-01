@@ -99,6 +99,15 @@
     <ClInclude Include="BiweeklySchedule.h">
       <Filter>Header Files\PaymentSchedule</Filter>
     </ClInclude>
+    <ClInclude Include="DeleteEmployeeTransaction.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCardTransaction.h">
+      <Filter>Header Files\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddEmployeeTransaction.cpp">
@@ -151,6 +160,15 @@
     </ClCompile>
     <ClCompile Include="BiweeklySchedule.cpp">
       <Filter>Source Files\PaymentSchedule</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteEmployeeTransaction.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCardTransaction.cpp">
+      <Filter>Source Files\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCard.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

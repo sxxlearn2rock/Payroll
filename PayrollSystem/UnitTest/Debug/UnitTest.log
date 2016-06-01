@@ -1,7 +1,7 @@
-﻿Build started 6/1/2016 11:31:47 AM.
+﻿Build started 6/1/2016 5:12:57 PM.
      1>Project "D:\SXX\Study\ASD\PayrollSystem\UnitTest\UnitTest.vcxproj" on node 2 (Build target(s)).
      1>Link:
-         D:\Work_Software\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Work_Software\Microsoft Visual Studio 12.0\VC\UnitTest\lib" /LIBPATH:D:\SXX\Study\ASD\PayrollSystem\PayrollSystem\Debug AddHourlyEmployee.obj AddSalariedEmployee.obj AddCommisionedEmployee.obj AddEmployeeTransaction.obj BiweeklySchedule.obj CommisionedClassification.obj Employee.obj HourlyClassification.obj HoldMethod.obj MonthlySchedule.obj PaymentClassification.obj SalariedClassification.obj PayrollDatabase.obj PaymentMethod.obj PaymentSchedule.obj WeeklySchedule.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         D:\Work_Software\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Work_Software\Microsoft Visual Studio 12.0\VC\UnitTest\lib" /LIBPATH:D:\SXX\Study\ASD\PayrollSystem\PayrollSystem\Debug AddHourlyEmployee.obj AddSalariedEmployee.obj AddCommisionedEmployee.obj AddEmployeeTransaction.obj BiweeklySchedule.obj CommisionedClassification.obj DeleteEmployeeTransaction.obj Employee.obj HourlyClassification.obj HoldMethod.obj MonthlySchedule.obj PaymentClassification.obj SalariedClassification.obj TimeCard.obj TimeCardTransaction.obj PayrollDatabase.obj PaymentMethod.obj PaymentSchedule.obj WeeklySchedule.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
          Debug\unittest1.obj
             Creating library D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.lib and object D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.exp
          UnitTest.vcxproj -> D:\SXX\Study\ASD\PayrollSystem\Debug\UnitTest.dll
@@ -9,4 +9,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.37
+Time Elapsed 00:00:00.32
